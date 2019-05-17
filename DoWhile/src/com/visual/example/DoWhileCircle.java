@@ -18,7 +18,7 @@ public class DoWhileCircle {
         System.out.println("猜小了");
       } else {
         System.out.println("恭喜你，猜对了！" + "你猜了" + Counter + "次");
-      }
+      }//感觉还不错
     } while (gussNumber != number);
   }
 }
