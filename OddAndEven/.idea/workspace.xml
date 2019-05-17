@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f0cc294-b487-4e1a-a391-0a11ac54bc23" name="Default Changelist" comment="oddandeven">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OddAndEven.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/visual/example/OddAndEven.java" afterDir="false" />
+    <list default="true" id="7f0cc294-b487-4e1a-a391-0a11ac54bc23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../DoWhile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DoWhile/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DoWhile/src/com/visual/example/DoWhileCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DoWhile/src/com/visual/example/DoWhileCircle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/visual/example/OddAndEven.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="408">
+              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -137,12 +128,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558106189307</updated>
-      <workItem from="1558106199299" duration="3527000" />
+      <workItem from="1558106199299" duration="3966000" />
     </task>
+    <task id="LOCAL-00001" summary="oddandeven">
+      <created>1558109832395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558109832395</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3527000" />
+    <option name="totallyTimeSpent" value="3966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="861" y="4" width="974" height="1047" extended-state="0" />
@@ -155,12 +154,12 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Messages" weight="0.32968238" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32968238" />
+      <window_info anchor="bottom" id="Version Control" sideWeight="0.4989059" visible="true" weight="0.32968238" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.5010941" side_tool="true" visible="true" weight="0.32968238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33296824" />
@@ -196,8 +195,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/visual/example/OddAndEven.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="408">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

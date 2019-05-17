@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cf83141-2933-41c9-bdf6-a2f217b8871e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../OddAndEven/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OddAndEven/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OddAndEven/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OddAndEven/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OddAndEven/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OddAndEven/OddAndEven.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OddAndEven/src/com/visual/example/OddAndEven.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/visual/example/DoWhileCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visual/example/DoWhileCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OddAndEven/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OddAndEven/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/visual/example/DoWhileCircle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="440">
+              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -52,9 +45,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="896" />
-    <option name="y" value="31" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="861" />
+    <option name="y" value="4" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -134,7 +127,7 @@
       <updated>1558019709881</updated>
       <workItem from="1558019718520" duration="2590000" />
       <workItem from="1558023824656" duration="680000" />
-      <workItem from="1558105974828" duration="863000" />
+      <workItem from="1558105974828" duration="870000" />
     </task>
     <task id="LOCAL-00001" summary="circle">
       <created>1558021549952</created>
@@ -147,10 +140,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4133000" />
+    <option name="totallyTimeSpent" value="4140000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
@@ -201,8 +194,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/visual/example/DoWhileCircle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="440">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
         </state>
       </provider>
     </entry>
