@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cf83141-2933-41c9-bdf6-a2f217b8871e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../NinenineMultiplicationTable/src/MultiTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NinenineMultiplicationTable/src/SwitchCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NinenineMultiplicationTable/src/com/newHorizon/nineninetable/NinenineMultiplicationTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondNineTable/src/com/newHorizon/table/MultiTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OddAndEven/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OddAndEven/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/visual/example/DoWhileCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visual/example/DoWhileCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GitDemo/src/com/jingdong/example/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GitDemo/src/com/jingdong/example/HelloWorld.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/visual/example/DoWhileCircle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            <state relative-caret-position="260">
+              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -46,8 +51,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="861" />
-    <option name="y" value="4" />
+    <option name="x" value="853" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -60,7 +64,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -68,10 +71,22 @@
               <item name="DoWhile" type="b2602c69:ProjectViewProjectNode" />
               <item name="DoWhile" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DoWhile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoWhile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DoWhile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoWhile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -79,9 +94,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NinenineMultiplicationTable" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,6 +144,7 @@
       <workItem from="1558019718520" duration="2590000" />
       <workItem from="1558023824656" duration="680000" />
       <workItem from="1558105974828" duration="870000" />
+      <workItem from="1558250055513" duration="5778000" />
     </task>
     <task id="LOCAL-00001" summary="circle">
       <created>1558021549952</created>
@@ -140,13 +157,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4140000" />
+    <option name="totallyTimeSpent" value="9918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15421557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -155,7 +172,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3264642" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32570806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -163,9 +180,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3366556" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32321042" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32352942" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3264642" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32570806" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -194,8 +211,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/visual/example/DoWhileCircle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        <state relative-caret-position="260">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
