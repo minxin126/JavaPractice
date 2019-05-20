@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cf83141-2933-41c9-bdf6-a2f217b8871e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../NinenineMultiplicationTable/src/MultiTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NinenineMultiplicationTable/src/SwitchCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NinenineMultiplicationTable/src/com/newHorizon/nineninetable/NinenineMultiplicationTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SecondNineTable/src/com/newHorizon/table/MultiTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/visual/example/DoWhileCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/visual/example/DoWhileCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GitDemo/src/com/jingdong/example/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GitDemo/src/com/jingdong/example/HelloWorld.java" afterDir="false" />
-    </list>
+    <list default="true" id="2cf83141-2933-41c9-bdf6-a2f217b8871e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/visual/example/DoWhileCircle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="366">
+              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -144,7 +136,7 @@
       <workItem from="1558019718520" duration="2590000" />
       <workItem from="1558023824656" duration="680000" />
       <workItem from="1558105974828" duration="870000" />
-      <workItem from="1558250055513" duration="6560000" />
+      <workItem from="1558250055513" duration="6641000" />
     </task>
     <task id="LOCAL-00001" summary="circle">
       <created>1558021549952</created>
@@ -153,14 +145,22 @@
       <option name="project" value="LOCAL" />
       <updated>1558021549952</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="circle">
+      <created>1558262614904</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558262614904</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10700000" />
+    <option name="totallyTimeSpent" value="10781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15421557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -171,7 +171,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32570806" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32570806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -210,8 +210,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/visual/example/DoWhileCircle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="366">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
         </state>
       </provider>
     </entry>
