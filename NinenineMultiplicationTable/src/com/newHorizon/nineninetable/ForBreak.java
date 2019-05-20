@@ -15,15 +15,17 @@ public class ForBreak {
       System.out.println();
     }
     // for test just for 5 and 1
+    Second_Out:
     for (int l = 1; l <= amount; ++l) {
       int p = l++;
       for (int j = 1; j <= (amount / 5); j++) {
         int o = ++j;
         if (1 * l + 5 * j == amount) {
           System.out.println("l=" + l + "," + "j=" + j);
+          break Second_Out;
         }
         //         l++等于l=l+1
-        System.out.println(l);
+        //        System.out.println(l);
       }
     }
 
