@@ -25,7 +25,8 @@ public class KaispecialNumber {
 
   // 是否是水仙花数
   private static boolean isNarcissistic(int num) {
-    return num == digitCubeSum(num) ? true : false; // 等于本身就是水仙花数
+    // 等于本身就是水仙花数
+    return digitCubeSum(num) == num;
   }
   // 第n个水仙花数
   private static int nthNarcissistic(int n) {
@@ -53,13 +54,17 @@ public class KaispecialNumber {
   //  主函数
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
+    System.out.println("请输入起始和结束的水仙花数：");
     int n = in.nextInt();
     int m = in.nextInt();
     int sum = 0;
     for (int i = nthNarcissistic(n); i < nthNarcissistic(m); i++) {
-
-      sum += (isPalindrome(i) ? i : 0);
+      sum += ((isPalindrome(i) && isEven(i)) ? i : 0);
     }
     System.out.println("sum = " + sum);
+  }
+
+  private static boolean isEven(int num) {
+    return num % 2 == 0;
   }
 }
