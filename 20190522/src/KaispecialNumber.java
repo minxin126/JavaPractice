@@ -8,17 +8,24 @@ import java.util.Scanner;
  */
 public class KaispecialNumber {
   // 各位数字的幂之求和
-  private static int digitCubeSum(int num) { // 数字三次幂求和
+  private static int digitCubeSum(int num) {
+    // 数字三次幂求和
     int sum = 0, add = 0;
     double digit;
 
-    double length = Integer.toString(num).length(); // 获取num的长度,求各位数字的次方和
+    double length = Integer.toString(num).length();
+    // 获取num的长度,求各位数字的次方和
     // for example:363
-    while (num > 0) { // 循环一直除到个位
-      digit = num % 10; // 个位余数
-      num /= 10; // 百位十位，左移动一位
-      add = (int) Math.pow(digit, length); // 数字的长度的次方
-      sum += add; // 算出和sum=sum+add
+    while (num > 0) {
+      // 循环一直除到个位
+      digit = num % 10;
+      // 个位余数
+      num /= 10;
+      // 百位十位，左移动一位
+      add = (int) Math.pow(digit, length);
+      // 数字的长度的次方
+      sum += add;
+      // 算出和sum=sum+add
     }
     return sum;
   }
@@ -32,7 +39,8 @@ public class KaispecialNumber {
   private static int nthNarcissistic(int n) {
     int candidate, count;
     for (candidate = 0, count = 0; count < n; ++candidate) {
-      if (isNarcissistic(candidate)) { // if只会根据里面的结果是true或者false选择是否执行
+      if (isNarcissistic(candidate)) {
+        // if只会根据里面的结果是true或者false选择是否执行
         ++count;
       }
     }
@@ -45,9 +53,10 @@ public class KaispecialNumber {
     int reverse = 0;
 
     while (palindrome != 0) {
-      int remainder = palindrome % 10; // 个位
-      reverse = reverse * 10 + remainder; //
-      palindrome = palindrome / 10; //
+      int remainder = palindrome % 10;
+      // 个位
+      reverse = reverse * 10 + remainder;
+      palindrome = palindrome / 10;
     }
     return integer == reverse;
   }
