@@ -1,5 +1,7 @@
 package com.newvisual.xinkai;
 
+import java.time.LocalDate;
+
 /**
  * some descrption.
  *
@@ -7,7 +9,7 @@ package com.newvisual.xinkai;
  * @date
  */
 class Employee {
-    private static int nextId;
+    /*private static int nextId;
     private int id;
     private String name = "";
     private double salary;
@@ -39,5 +41,32 @@ class Employee {
 
     public double getSalary() {
         return salary;
+    }*///重载
+    private String name;
+    private double salary;
+    private LocalDate hireDay;
+
+    public Employee(String n, double s, int year, int month, int day) {
+        name = n;
+        salary = s;
+        hireDay = LocalDate.of(year, month, day);
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public LocalDate getHireDay() {
+        return hireDay;
+    }
+
+    public void raiseSalary(double byPercent) {
+        double raise = salary * byPercent / 100;
+        salary += raise;
+    }
+
 }
