@@ -15,5 +15,4 @@ public class PackageTest {
         harry.raiseSalary(5);
         out.println("name=" + harry.getName() + ",salary=" + harry.getSalary());
     }
-
 }
