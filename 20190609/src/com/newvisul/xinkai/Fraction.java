@@ -30,6 +30,7 @@ public class Fraction {
 
     /**
      * 直接用类实例化一个对象，然后作为一个函数的参数，r为另外一个对象，面向对象的强大，可以使用类似的变量。
+     * 使用类开头的函数，原来需要返回一个对象。
      */
     public Fraction plus(Fraction r) {
         //求两个分数的和

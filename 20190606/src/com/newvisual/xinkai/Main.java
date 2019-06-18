@@ -8,59 +8,51 @@ import java.util.Scanner;
  * @Date: 2019-6-7
  */
 public class Main {
-    private static Fraction r;
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("请输入分子和分母：");
-        Fraction a = new Fraction(in.nextInt(), in.nextInt());
-//        Fraction b = new Fraction(in.nextInt(), in.nextInt());
+        Fractions a = new Fractions(in.nextInt(), in.nextInt());
+        Fractions b = new Fractions(in.nextInt(), in.nextInt());
         a.print();
-//        b.print();
-//        a.plus(b).print();
-//        a.multiply(b).plus(new Fraction(5, 6)).print();
+        b.print();
+        //这个地方需要直接返回一个对象类型才可用。
+        a.plus(b).print();
+        a.multiply(b).plus(new Fractions(5, 6)).print();
         a.print();
-//        b.print();
-        System.out.println(a.toDouble(1, 2));
-//        in.close();
-        System.out.println(a.multiply(r));
-        //myself output
+        b.print();
+        in.close();
     }
-
 }
-
 /**
  * 记得构造函数没有任何返回值
  */
 class Fraction {
-    private int aNumber;
-    private int bNumber;
+    private int a;
+    private int b;
 
     public Fraction(int a, int b) {
-        aNumber = a;
-        bNumber = b;
+        this.a = a;
+        this.b = b;
     }
 
     double toDouble(int a, int b) {
-        float s = (aNumber / bNumber);
+        double s = (a / b);
         return s;
     }
 
+    public Fraction plus(Fraction r) {
+        int numerator = a * r.b + b * r.a;
+        int denominator = b * r.b;
+        return new Fraction(numerator, denominator);
+    }
+
     public void print() {
-        System.out.println("我打印了");
+        System.out.println(a + "/" + b);
     }
 
-    public void plus(Fraction r) {
-        double l = r.toDouble(1, 2);
-        l = l + 1;
-    }
-
-    public double multiply(Fraction r) {
-//        r.toDouble(aNumber, bNumber);
-//        double result = r.toDouble(aNumber, bNumber);
-//        return result;
-        System.out.println("啥也每个");
-        //将自己的分数加上之前的分数
-        return r.toDouble(aNumber, bNumber);
+    public Fraction multiply(Fraction r) {
+        //将自己的分数加上之前的分数,需要返回一个类才可以继续使用相关的内容
+        return new Fraction(a * r.a, b * r.b);
     }
 }
