@@ -41,9 +41,7 @@ public class NoteBook {
     }
 
     public static void main(String[] args) {
-//        String[] a = new String[2];
-//        a[0] = "first";
-//        a[1] = "second";
+
         NoteBook nb = new NoteBook();
         nb.add("first");
         nb.add("second");
