@@ -1,12 +1,30 @@
 package notebook;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 
+class Value {
+    private int i;
+
+    public void set(int i) {
+        this.i = i;
+    }
+
+    public int get() {
+        return i;
+    }
+
+    @Override
+    public String toString() {
+        return "" + i;
+    }
+}
 /**
  * @Descrption:
  * @Author: minx
  * @Date:
  */
+
 public class NoteBook {
     private ArrayList<String> notes = new ArrayList<String>();
     private int size = 0;
@@ -42,7 +60,12 @@ public class NoteBook {
 
     public static void main(String[] args) {
 
+        Value v = new Value();
+        v.set(10);
+        System.out.println(v);
+
         NoteBook nb = new NoteBook();
+        ArrayList<String> a = new ArrayList<String>();
         nb.add("first");
         nb.add("second");
         nb.add("third", 1);
@@ -50,9 +73,18 @@ public class NoteBook {
         System.out.println(nb.getNote(0));
         System.out.println(nb.getNote(1));
         nb.removeNote(1);
-        String[] a = nb.list();
+        a.add("first");
+//        String[] a = nb.list();
         for (String s : a) {
             System.out.println(s);
+        }
+        System.out.println("---------------");
+        HashSet<String> s = new HashSet<String>();
+        s.add("first");
+        s.add("second");
+        s.add("first");
+        for (String k : s) {
+            System.out.println(k);
         }
     }
 }
