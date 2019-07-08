@@ -76,6 +76,7 @@ public class NoteBook {
         a.add("first");
 //        String[] a = nb.list();
         for (String s : a) {
+
             System.out.println(s);
         }
         System.out.println("---------------");

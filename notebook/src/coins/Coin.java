@@ -15,7 +15,7 @@ public class Coin {
     private HashMap<Integer, String> coinnames = new HashMap<Integer, String>();
 
     /**
-     * 我知道了，set只是一个集合，而hashmap为主键的集合
+     * 我知道了，set只是一个集合，而hashmap为主键的集合。
      */
     public Coin() {
         coinnames.put(1, "penny");
@@ -47,6 +47,7 @@ public class Coin {
         int amount = in.nextInt();
         Coin coin = new Coin();
         String name = coin.getName(amount);
+
         System.out.println(name);
     }
 }
