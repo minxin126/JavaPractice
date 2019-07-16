@@ -15,13 +15,6 @@ public class Hashmapinside {
     /**
      * 为了实现一次性的输入两个城市名称，中间用空格隔开
      */
-//    private static void getStrin(String doubleName) {
-//        String str = doubleName;
-//        Character[] arr = new Character[str.length()];
-//        for (int i = 0; i <= str.length(); i++) {
-//            arr[i] = str.charAt(i);
-//        }
-//    }
     private static int together(String cityNameOne, String cityNameTwo) {
 
         HashSet<String> compare = new HashSet<>();
@@ -52,6 +45,8 @@ public class Hashmapinside {
             }
         }
         System.out.println(ideaMap);
+        //直接将computer传入参数，从而显示也可以。
+        System.out.println(ideaMap.get(compare));
         return number;
     }
 
@@ -64,11 +59,8 @@ public class Hashmapinside {
         Scanner in = new Scanner(System.in);
         String cityNameOne = in.next();
         String cityNameTwo = in.next();
-        String doubleName = in.nextLine();
         together(cityNameOne, cityNameTwo);
         System.out.println(number);
-//        getStrin(doubleName);
-
     }
 }
 
